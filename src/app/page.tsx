@@ -8,6 +8,8 @@ import { useLoveStore } from '@/store/use-love-store'
 import { motion } from 'framer-motion'
 import { useRouter } from 'next/navigation'
 
+export const dynamic = 'force-dynamic'; 
+
 export default function LandingPage() {
   const { name, setName } = useLoveStore()
   const router = useRouter()

@@ -1,5 +1,7 @@
 'use client'
 
+export const dynamic = 'force-dynamic';
+
 import { CenteredLayout } from '@/components/layouts/centered'
 import { Button } from '@/components/ui/button'
 import { motion } from 'framer-motion'
